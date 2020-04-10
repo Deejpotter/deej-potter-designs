@@ -11,6 +11,17 @@
 		<!-- MAIN CSS -->
 		<link rel="stylesheet" href="<?php echo $fileLevel ?>css/style.css">
 
+		<!-- Global site tag (gtag.js) - Google Ads: 785399603 -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-785399603"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'AW-785399603');
+			gtag('config', 'UA-126790088-1');
+		</script>
+
  	</head>
 
 

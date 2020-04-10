@@ -4,6 +4,11 @@ $title = "Thank you";
 include "./header.php" 
 ?>
 
+<!-- Event snippet for Submit lead form conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-785399603/iElDCPr92MwBELP-wPYC'});
+</script>
+
 <main>
 	
 	<section>
