@@ -57,8 +57,8 @@ include "./header.php"
 						</div>
 
 						<div>
-							<label for='copywriting'>Copywriting - $100 per page</label>
-							<input type="checkbox" name="copywriting" id="copywriting" value="100" onchange="getTotal()"/>
+							<label for='copywriting'>Copywriting - $50 per page</label>
+							<input type="checkbox" name="copywriting" id="copywriting" value="50" onchange="getTotal()"/>
 						</div>
 					</div>
 					<div id="cost-section">
