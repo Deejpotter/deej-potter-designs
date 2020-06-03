@@ -8,8 +8,8 @@ include "../templates/header.php"
 
     <!-- Hero section -->
 	<section class="home hero inset-background-left">
-		<div class="content-wrapper-horizontal">
-			<div class="content-wrapper-vertical">
+		<div class="container">
+			<div class="container">
 				<h1>Breakout clone</h1>
 				<i class="fas fa-chevron-down"></i>
 			</div>

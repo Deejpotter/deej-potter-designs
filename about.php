@@ -8,8 +8,8 @@ include "templates/header.php"
 	  
 	<!-- Hero section -->
 	<section class="about-me-image hero inset-background-left">
-		<div class="content-wrapper-horizontal">
-			<div class="content-wrapper-vertical">
+		<div class="container">
+			<div class="container">
 				<h1>All about me</h1>
 				<p>If you want to know more about my life you've come to the right place</p>
 				<i class="fas fa-chevron-down"></i>
@@ -18,8 +18,8 @@ include "templates/header.php"
 	</section>	
 
 	<section>
-		<div class="content-wrapper-horizontal">
-			<div class="content-wrapper-vertical">
+		<div class="container">
+			<div class="container">
 				<div>
 					<h2>I love technology</h2>
 					<p>I have always had a love for technology. Since I can remember I have been messing around with every 

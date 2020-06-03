@@ -4,8 +4,8 @@ $title = "Terms and conditions";
 include "../templates/header.php" 
 ?>
 
-<div class="content-wrapper-horizontal">
-    <div class="content-wrapper-vertical-left">
+<div class="container">
+    <div class="container-left">
         
         <h1>Terms and Conditions</h1>
 

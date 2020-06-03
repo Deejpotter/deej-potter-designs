@@ -8,8 +8,8 @@ include "./templates/footer.php"
 	  
 	<!-- Hero section -->
 	<section class="index-hero inset-background-left">
-		<div class="content-wrapper-horizontal">
-			<div class="content-wrapper-vertical">
+		<div class="container">
+			<div class="container">
 				<h1>My work</h1>
 				<p>On this page is a list of projects I have made including a description of what I did during the project
 					and my reasons for the decisions I made where it's applicable. As always, if you have any questions about 
@@ -22,7 +22,7 @@ include "./templates/footer.php"
 	<!-- Calculator -->
 	<section class="index-section">
 		<div class="index-card">
-			<div class="content-wrapper-vertical">
+			<div class="container">
 				<div class="">
 					<h2>Online calculator</h2>
 					<p>This is something I made for a bit of practice. It's an online calculator. It's pretty self-explanitory,
@@ -38,7 +38,7 @@ include "./templates/footer.php"
 		<!-- Breakout -->
 		<section class="index-section">
 		<div class="index-card">
-			<div class="content-wrapper-vertical">
+			<div class="container">
 				<div class="">
 					<h2>Breakout clone</h2>
 					<p>I made this small game to practice Javascript. It's pretty rusty but it was fun to make and it 
@@ -53,7 +53,7 @@ include "./templates/footer.php"
 		<!-- Phaser Breakout -->
 		<section class="index-section">
 		<div class="index-card">
-			<div class="content-wrapper-vertical">
+			<div class="container">
 				<div class="">
 					<h2>Breakout clone</h2>
 					<p>I made this small game to practice Phaser. It's mostly the same as the other breakout game 

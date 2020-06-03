@@ -8,8 +8,8 @@ include "../templates/header.php"
 	  
 	<!-- Hero section -->
 	<section class="home hero inset-background-left">
-		<div class="content-wrapper-horizontal">
-			<div class="content-wrapper-vertical">
+		<div class="container">
+			<div class="container">
 				<h1>Deej Potter - My life</h1>
 				<p>If you want to know more about my life you've come to the right place</p>
 				<i class="fas fa-chevron-down"></i>
@@ -18,8 +18,8 @@ include "../templates/header.php"
 	</section>	
 
 	<section>
-		<div class="content-wrapper-horizontal">
-			<div class="content-wrapper-vertical">
+		<div class="container">
+			<div class="container">
 				<h2>My story</h2>
 				<p>I love learning and technology. I am flexible and honest. I love helping people with my skills.</p>
 				<h2>How I started</h2>

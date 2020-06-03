@@ -8,8 +8,8 @@ include "./templates/footer.php"
 	  
 	<!-- Hero section -->
 	<section class="index-hero inset-background-left">
-		<div class="content-wrapper-horizontal">
-			<div class="content-wrapper-vertical">
+		<div class="container">
+			<div class="container">
 				<h1>Index Page</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis turpis pretium, congue augue ut, pellentesque dui. Maecenas condimentum volutpat arcu, at finibus purus congue sed. Pellentesque tristique iaculis gravida.</p>
 			</div>
@@ -18,7 +18,7 @@ include "./templates/footer.php"
 		
 	<section class="index-section">
 		<div class="index-card">
-			<div class="content-wrapper-vertical">
+			<div class="container">
 				<div class="">
 					<h2>Deej Potter Designs</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis turpis pretium, congue augue ut, pellentesque dui. Maecenas condimentum volutpat arcu, at finibus purus congue sed. Pellentesque tristique iaculis gravida.</p>
@@ -29,7 +29,7 @@ include "./templates/footer.php"
 			</a>
 		</div>
 		<div class="index-card">
-			<div class="content-wrapper-vertical">
+			<div class="container">
 				<div class="">
 					<h2>Deej Potter Designs</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis turpis pretium, congue augue ut, pellentesque dui. Maecenas condimentum volutpat arcu, at finibus purus congue sed. Pellentesque tristique iaculis gravida.</p>
@@ -40,7 +40,7 @@ include "./templates/footer.php"
 			</a>
 		</div>
 		<div class="index-card">
-			<div class="content-wrapper-vertical">
+			<div class="container">
 				<div class="">
 					<h2>Deej Potter Designs</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis turpis pretium, congue augue ut, pellentesque dui. Maecenas condimentum volutpat arcu, at finibus purus congue sed. Pellentesque tristique iaculis gravida.</p>

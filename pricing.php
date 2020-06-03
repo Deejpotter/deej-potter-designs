@@ -10,8 +10,8 @@ include "./templates/footer.php"
 	  
 	<!-- Hero section -->
 	<section class="pricing-image hero inset-background-left">
-		<div class="content-wrapper-horizontal">
-			<div class="content-wrapper-vertical">
+		<div class="container">
+			<div class="container">
 				<h1>Prices</h1>
 				<p>On this page you can find information about my prices as well as a form to get a quick quote.</P>
 				<i class="fas fa-chevron-down"></i>
@@ -21,8 +21,8 @@ include "./templates/footer.php"
 
 	<!-- Content section -->
 	<section>
-		<div class="content-wrapper-horizontal">
-			<div class="content-wrapper-vertical">
+		<div class="container">
+			<div class="container">
 				<h2>Get an instant quote</h2>
 				<p>Choose the number of pages you need (just take a guess if you aren't sure, 
 				you may need more or less than you think). Next choose a level of hosting for after your 

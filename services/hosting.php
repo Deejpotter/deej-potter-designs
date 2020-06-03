@@ -8,8 +8,8 @@ include "../templates/header.php"
 	  
 	<!-- Hero section -->
 	<section class="home hero inset-background-left">
-		<div class="content-wrapper-horizontal">
-			<div class="content-wrapper-vertical">
+		<div class="container">
+			<div class="container">
 				<h1>Deej Potter Designs</h1>
 				<p>Your own personal web designer</p>
 				<i class="fas fa-chevron-down"></i>
@@ -19,7 +19,7 @@ include "../templates/header.php"
 
 	<!-- Content section -->
 	<section>
-		<div class="content-wrapper-horizontal">
+		<div class="container">
 			<div>
 				<h1>Deej Potter Designs</h1>
 				<p>Your own personal web designer</p>

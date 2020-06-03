@@ -4,8 +4,8 @@ $title = "Privacy policy | Deej Potter Designs";
 include "../templates/header.php" 
 ?>
 
-<div class="content-wrapper-horizontal">
-    <div class="content-wrapper-vertical-left">
+<div class="container">
+    <div class="container-left">
 
         <h1>Privacy Policy</h1>
 

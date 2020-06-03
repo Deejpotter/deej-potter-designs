@@ -12,8 +12,8 @@ include "./templates/footer.php"
 <main>
 	
 	<section>
-		<div class="content-wrapper-horizontal">
-			<div class="content-wrapper-vertical">
+		<div class="container">
+			<div class="container">
 				<h1>Thank you! I'll get back to you soon.</h1>
 				<a href= "<?php echo $fileLevel ?>./index.php">Back home</a>
 			</div>

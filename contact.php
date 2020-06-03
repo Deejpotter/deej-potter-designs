@@ -8,8 +8,8 @@ include "templates/header.php"
 	  
 	<!-- Hero section -->
 	<section class="contact-image hero inset-background-left">
-		<div class="content-wrapper-horizontal">
-			<div class="content-wrapper-vertical">
+		<div class="container">
+			<div class="row">
 				<h1>Ready to talk about your project?</h1>
 				<p>Please fill out the form below and I'll get back to you as soon as I can. 
 					I look forward to hearing from you.</p>
@@ -19,8 +19,8 @@ include "templates/header.php"
 	</section>	
 	
 	<section>
-		<div class="content-wrapper-horizontal">
-			<div class="content-wrapper-vertical">
+		<div class="container">
+			<div class="row">
 				<h2>This is the final step before I can start working on your website</h2>
 				<p>I need some information from you to get in contact. I promise I'll only use this information to email 
 					you about your project, I won't share it with anyone or use it for any other reason.</p>

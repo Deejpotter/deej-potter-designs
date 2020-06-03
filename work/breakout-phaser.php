@@ -8,8 +8,8 @@ include "../templates/header.php"
 
     <!-- Hero section -->
 	<section class="home hero inset-background-left">
-		<div class="content-wrapper-horizontal">
-			<div class="content-wrapper-vertical">
+		<div class="container">
+			<div class="container">
 				<h1>Phaser breakout clone</h1>
 				<i class="fas fa-chevron-down"></i>
 			</div>
@@ -18,7 +18,7 @@ include "../templates/header.php"
 
     <!-- Content section -->
     <section>
-        <div class="content-wrapper-vertical">
+        <div class="container">
             <h2>Try the game</h2>
             <p>I made this to practice Phaser. It's pretty rusty but it was fun to make and it 
             might be interesting to play.</p>
