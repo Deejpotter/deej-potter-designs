@@ -1,7 +1,7 @@
 <?php 
 $fileLevel = "../";
 $title = "Breakout clone | Deej Potter Designs";
-include "../templates/footer.php" 
+include "../templates/header.php" 
 ?>
 
 <main id="main">	

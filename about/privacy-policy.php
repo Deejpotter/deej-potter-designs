@@ -1,7 +1,7 @@
 <?php 
 $fileLevel = "../";
 $title = "Privacy policy | Deej Potter Designs";
-include "../templates/footer.php" 
+include "../templates/header.php" 
 ?>
 
 <div class="content-wrapper-horizontal">

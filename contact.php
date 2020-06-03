@@ -1,7 +1,7 @@
 <?php 
 $fileLevel = "";
 $title = "Contact me";
-include "templates/footer.php" 
+include "templates/header.php" 
 ?>
 
 <main id="main">

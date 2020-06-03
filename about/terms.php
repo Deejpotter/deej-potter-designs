@@ -1,7 +1,7 @@
 <?php 
 $fileLevel = "../";
 $title = "Terms and conditions";
-include "../templates/footer.php" 
+include "../templates/header.php" 
 ?>
 
 <div class="content-wrapper-horizontal">

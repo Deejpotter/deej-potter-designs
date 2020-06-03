@@ -35,7 +35,7 @@
 			<div class="container">
 				<!-- Brand -->
 				<a class="navbar-brand" href="<?php echo $fileLevel ?>">
-					<img src="<?php echo $fileLevel ?>images/logo-200.png">
+					<img src="<?php echo $fileLevel ?>images/logo.png">
 				</a>
 
 				<!-- Toggler/collapsibe Button -->
