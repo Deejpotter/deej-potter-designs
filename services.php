@@ -1,7 +1,7 @@
 <?php 
 $fileLevel = "";
 $title = "Services";
-include "./header.php" 
+include "./templates/footer.php" 
 ?>
 
 <main id="index">
@@ -54,4 +54,4 @@ include "./header.php"
 	
 </main>
 
-<?php include "./footer.php" ?>
+<?php include "./templates/footer.php" ?>

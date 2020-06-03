@@ -1,7 +1,7 @@
 <?php 
 $fileLevel = "";
-$title = "Your personal web designer";
-include "header.php" 
+$title = "Your personal web designer | Deej Potter Designs";
+include "templates/footer.php" 
 ?>
 
 <main id="main">
@@ -72,4 +72,4 @@ include "header.php"
 		
 </main>
 
-<?php include "footer.php" ?>
+<?php include "templates/footer.php" ?>

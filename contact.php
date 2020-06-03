@@ -1,7 +1,7 @@
 <?php 
 $fileLevel = "";
 $title = "Contact me";
-include "./header.php" 
+include "templates/footer.php" 
 ?>
 
 <main id="main">
@@ -24,7 +24,7 @@ include "./header.php"
 				<h2>This is the final step before I can start working on your website</h2>
 				<p>I need some information from you to get in contact. I promise I'll only use this information to email 
 					you about your project, I won't share it with anyone or use it for any other reason.</p>
-				<form id="contact-page-form" name="emailform" action="form-post.php" method="post">
+				<form id="contact-page-form" name="emailform" action="php/form-post.php" method="post">
 					<div>
 						<label for='name'>Enter Name: </label>
 						<input type="text" name="name">
@@ -69,4 +69,4 @@ include "./header.php"
 		
 </main>
 
-<?php include "./footer.php" ?>
+<?php include "templates/footer.php" ?>

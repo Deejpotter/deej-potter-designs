@@ -1,7 +1,7 @@
 <?php 
 $fileLevel = "../";
 $title = "Online calculator";
-include "../header.php" 
+include "../templates/footer.php" 
 ?>
 
 <main id="main">
@@ -34,4 +34,4 @@ include "../header.php"
     <script src="<?php echo $fileLevel ?>js/calculator.js"></script>
 </main>
 
-<?php include "../footer.php" ?>
+<?php include "../templates/footer.php" ?>

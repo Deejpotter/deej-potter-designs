@@ -1,7 +1,7 @@
 <?php 
-$fileLevel = "";
+$fileLevel = "../";
 $title = "Terms and conditions";
-include "./header.php" 
+include "../templates/footer.php" 
 ?>
 
 <div class="content-wrapper-horizontal">
@@ -101,4 +101,4 @@ include "./header.php"
     </div>
 </div>
 
-<?php include "./footer.php" ?>
+<?php include "../templates/footer.php" ?>

@@ -1,8 +1,8 @@
 <?php 
 $fileLevel = "";
-$title = "Pricing";
+$title = "Pricing | Deej Potter Designs";
 
-include "./header.php" 
+include "./templates/footer.php" 
 ?>
 
 
@@ -87,4 +87,4 @@ include "./header.php"
 <script language="JavaScript" src="js/pricing.js" type="text/javascript"></script>
 </main>
 
-<?php include "./footer.php" ?>
+<?php include "./templates/footer.php" ?>
