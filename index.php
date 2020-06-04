@@ -14,7 +14,7 @@ include "templates/header.php"
 	?>
 	
 	<!-- Personal section -->
-	<section class="personal-section">
+	<section class="">
 		<div class="container">
 			<div>
 				<h2>I’m here to help you</h2>
