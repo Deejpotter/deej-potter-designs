@@ -1,6 +1,6 @@
 # Folders to ignore
 BootstrapNode/js/coverage/
-*node_modules/
+BootstrapNode/node_modules
 _reference
 
 # Ignore docs files

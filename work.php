@@ -1,7 +1,7 @@
 <?php 
 $fileLevel = "";
 $title = "My work";
-include "./templates/footer.php" 
+include "./templates/header.php" 
 ?>
 
 <main id="index">

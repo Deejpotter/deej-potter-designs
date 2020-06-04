@@ -1,7 +1,7 @@
 <?php 
 $fileLevel = "";
 $title = "Thank you";
-include "./templates/footer.php" 
+include "./templates/header.php" 
 ?>
 
 <!-- Event snippet for Submit lead form conversion page -->
