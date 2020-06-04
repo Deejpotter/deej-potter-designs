@@ -33,6 +33,7 @@
   --bottom-margin: 0 0 15px 0;
   --bigger-margin: 0 0 30px 0;
   --box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, .2);
+  --box-shadow-inset: inset 0 0px 4px 1px black;
   --default-radius: 8px;
 
 }
@@ -41,6 +42,10 @@
 #BaseSelectors
 ---------*/  
   
+header, footer, main {
+  background-image: url("../images/white-waves.png");
+  background-attachment: fixed;
+}
 
 
 /*--------------------------------------------------------- 
@@ -52,6 +57,45 @@
 #GeneralClasses
 ---------*/
 
+ .inset{
+  box-shadow: var(--box-shadow-inset);
+}
+
+.inset-background-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  box-shadow: var(--box-shadow-inset);
+ }
+
+.inset-background-right {
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  box-shadow: var(--box-shadow-inset);
+}
+@media (max-width: 500px) {
+  .inset-background-right {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+}
+
+.inset-background-left {
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  box-shadow: var(--box-shadow-inset);
+}
+@media (max-width: 500px) {
+  .inset-background-left {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+}
 
 
 /*---------
@@ -60,7 +104,7 @@
 
   /* Bootstrap makes the logo huge for some reason */
   .navbar-brand img {
-    height: 10vh;
+    height: 5rem;
   }
 
   /*---------

@@ -36,7 +36,7 @@
 		<nav class="navbar navbar-expand-md">
 			<div class="container">
 				<!-- Brand -->
-				<a class="navbar-brand" href="<?php echo $fileLevel ?>">
+				<a class="navbar-brand" href="<?php echo $fileLevel ?>index.php">
 					<img src="<?php echo $fileLevel ?>images/logo.png">
 				</a>
 
@@ -47,16 +47,19 @@
 
 				<!-- Navbar links -->
 				<div class="collapse navbar-collapse" id="collapsibleNavbar">
-					<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="<?php echo $fileLevel ?>">Link</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="<?php echo $fileLevel ?>">Link</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="<?php echo $fileLevel ?>">Link</a>
-					</li>
+					<ul class="navbar-nav nav-fill ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="<?php echo $fileLevel ?>pricing.php">Pricing</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="<?php echo $fileLevel ?>about.php">About me</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="<?php echo $fileLevel ?>work.php">My work</a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-primary btn-lg" href="<?php echo $fileLevel ?>contact.php">Contact me</a>
+						</li>
 					</ul>
 				</div>
 			</div>
