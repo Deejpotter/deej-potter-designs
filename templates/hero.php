@@ -5,6 +5,7 @@
 	$textColour = "dark";
 	$sectionH1 = "Deej Potter Designs";
 	$sectionP = "Your own personal web designer. <br>Prices start at $100. <br><strong>Contact me now!</strong>";
+	$otherClasses = "";
 	include "templates/hero.php"
  -->
 

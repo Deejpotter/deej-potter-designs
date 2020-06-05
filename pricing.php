@@ -7,17 +7,31 @@ include "./templates/header.php"
 
 
 <main id="main">
-	  
+
 	<!-- Hero section -->
-	<section class="pricing-image hero inset-background-left">
-		<div class="container">
-			<div class="container">
-				<h1>Prices</h1>
-				<p>On this page you can find information about my prices as well as a form to get a quick quote.</P>
-				<i class="fas fa-chevron-down"></i>
-			</div>
-		</div>
-	</section>		
+	<?php
+		$bgColour = "primary";
+		$bgImage = "images/pricing-image-50-900x600.png";
+		$textColour = "dark";
+		$sectionH1 = "Prices";
+		$sectionP = "On this page you can find information about my prices as well as a form to get a quick quote.";
+		$otherClasses = "inset-background-cover";
+		include "templates/hero.php"
+	?>		
+
+	<!-- Basic section -->
+	<?php
+		$bgColour = "light";
+		$textColour = "dark";
+		$bgImage = "";
+		$sectionH2 = "I’m here to help you";
+		$sectionP = "I know there is a lot to learn when it comes to the internet so I’m here to guide you through the whole journey. 
+		You’ll have personal contact with me the whole time and I will be happy to answer any questions you have. 
+		I also have varying levels of service after your website is finished so you can be sure you will never be left 
+		not knowing what to do next.";
+		$otherClasses = "";
+		include "templates/basic-section.php"
+	?>
 
 	<!-- Content section -->
 	<section>
@@ -74,6 +88,9 @@ include "./templates/header.php"
 		</div>
 	</section>
 
+</main>
+
+<script language="JavaScript" src="js/pricing.js" type="text/javascript"></script>
 <script language="JavaScript" src="js/gen_validatorv31.js" type="text/javascript"></script>				
 <script language="JavaScript">
 	// Code for validating the form
@@ -83,8 +100,5 @@ include "./templates/header.php"
 	frmvalidator.addValidation("pages","req"); 
 	frmvalidator.addValidation("hosting","req"); ; 
 </script>	
-
-<script language="JavaScript" src="js/pricing.js" type="text/javascript"></script>
-</main>
 
 <?php include "./templates/footer.php" ?>

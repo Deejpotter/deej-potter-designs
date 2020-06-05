@@ -41,11 +41,7 @@
 /*----------
 #BaseSelectors
 ---------*/  
-  
-header, footer, main {
-  background-image: url("../images/white-waves.png");
-  background-attachment: fixed;
-}
+
 
 
 /*--------------------------------------------------------- 
@@ -56,6 +52,11 @@ header, footer, main {
 /*---------
 #GeneralClasses
 ---------*/
+
+.background {
+  background-image: url("../images/white-waves.png");
+  background-attachment: fixed;
+}
 
  .inset{
   box-shadow: var(--box-shadow-inset);
