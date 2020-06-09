@@ -7,26 +7,22 @@ include "../templates/header.php"
 <main id="main">	
 
     <!-- Hero section -->
-	<section class="home hero inset-background-left">
-		<div class="container">
-			<div class="container">
-				<h1>Phaser breakout clone</h1>
-				<i class="fas fa-chevron-down"></i>
-			</div>
-		</div>
-	</section>	
+	<?php
+		$bgColour = "primary";
+		$bgImage = "../images/pricing-image-50-900x600.png";
+		$textColour = "light";
+		$sectionH1 = "Breakout clone";
+		$sectionP = "I made this to practice Phaser. It's pretty rusty but it was fun to make and it might be interesting to play.";
+		$otherClasses = "inset-background-cover";
+		include "../templates/hero.php"
+    ?>	
 
     <!-- Content section -->
-    <section>
-        <div class="container">
-            <h2>Try the game</h2>
-            <p>I made this to practice Phaser. It's pretty rusty but it was fun to make and it 
-            might be interesting to play.</p>
-            <div id="game-area"></div>
+    <section class="container">
+        <div id="game-area" class=""></div>
 
-            <script src="<?php echo $fileLevel ?>js/phaser.js"></script>
-            <script src="<?php echo $fileLevel ?>js/breakout-phaser.js"></script>
-        </div>
+        <script src="<?php echo $fileLevel ?>js/phaser.js"></script>
+        <script src="<?php echo $fileLevel ?>js/breakout-phaser.js"></script>
     </section>
 	
 </main>

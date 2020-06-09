@@ -12,7 +12,7 @@ include "./templates/header.php"
 	<?php
 		$bgColour = "primary";
 		$bgImage = "images/pricing-image-50-900x600.png";
-		$textColour = "dark";
+		$textColour = "light";
 		$sectionH1 = "Prices";
 		$sectionP = "On this page you can find information about my prices as well as a form to get a quick quote.";
 		$otherClasses = "inset-background-cover";
@@ -34,9 +34,9 @@ include "./templates/header.php"
 	?>
 
 	<!-- Content section -->
-	<section>
-		<div class="container">
-			<div class="container">
+	<section class="container pb-5">
+		<div class="row">
+			<div class="col-md">
 				<h2>Get an instant quote</h2>
 				<p>Choose the number of pages you need (just take a guess if you aren't sure, 
 				you may need more or less than you think). Next choose a level of hosting for after your 
@@ -44,44 +44,46 @@ include "./templates/header.php"
 				You will then see an estimated price below the form.</p>
 				<p>Remember that this is just an estimate, to get a 
 				proper quote you'll need to contact me and have a full asessment done.</p>
+			</div>
 
+			<div class="col-md">
 				<form id="pricing-form" name="pricing-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-					<div>
-						<label for='pages'>Select number of pages:</label>
-						<input type="number" name="pages" id = "pages" oninput="getTotal()">
+					<div class="form-group">
+						<label for='pages'>How many pages do you think you will need:</label>
+						<input class="form-control shadow" type="number" name="pages" id = "pages" oninput="getTotal()">
 					</div>
-					<div>
-						<label for='hosting'>Select level of hosting:</label>
-						<select name="hosting" id="hosting" onchange="getHostingTotal()">
+					<div class="form-group">
+						<label for='hosting'>What kind of hosting would you like:</label>
+						<select class="form-control shadow" name="hosting" id="hosting" onchange="getHostingTotal()">
 							<option value="none">None</option>
 							<option value="basic">Just hosting - $10 per month</option>
 							<option value="analytics">Hosting and analytics - $30 per month</option>
 							<option value="marketing">Digital marketing package - $100 per month</option>
 						</select>
 					</div>
-					<div class="checkbox-form-section">
-						<div>
-							<label for='database'>Database integration - $100</label>
-							<input type="checkbox" name="database" id="database" value="100" onchange="getTotal()"/>
+					<div class="form-group">
+						<div class="form-group">
+							<label for='database'>Database integration (allow people to sign up for an account on your website) - $200</label>
+							<input type="checkbox" name="database" id="database" value="200" onchange="getTotal()"/>
 						</div>
 
-						<div>
-							<label for='spreadsheet'>Spreadsheet content editing - $100</label>
-							<input type="checkbox" name="spreadsheet" id="spreadsheet" value="100" onchange="getTotal()"/>
+						<div class="form-group">
+							<label for='spreadsheet'>Spreadsheet content editing (edit your content through Google Sheets) - $200</label>
+							<input type="checkbox" name="spreadsheet" id="spreadsheet" value="200" onchange="getTotal()"/>
 						</div>
 
-						<div>
-							<label for='copywriting'>Copywriting - $50 per page</label>
+						<div class="form-group">
+							<label for='copywriting'>Copywriting (I'll write content for your website) - $50 per page</label>
 							<input type="checkbox" name="copywriting" id="copywriting" value="50" onchange="getTotal()"/>
 						</div>
 					</div>
 					<div id="cost-section">
-						<p id="total-cost">Total cost = $0</p>
-						<p id="monthly-cost">Monthly cost = $0</p>
+						<p id="total-cost" class="font-weight-bold">Total cost = $0</p>
+						<p id="monthly-cost" class="font-weight-bold">Monthly cost = $0</p>
 					</div>
 					<div>
 						<p>If this sounds good or you want a more accurate quote click the button below to get started.</p>
-						<a href="contact.php" class="main-header-contact">Contact me</a>
+						<a href="contact.php" class="btn btn-primary shadow">Get a quote</a>
 					</div>	
 				</form>
 			</div>

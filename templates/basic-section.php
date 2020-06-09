@@ -12,6 +12,6 @@
 <section class="bg-<?php echo $bgColour ?> text-<?php echo $textColour ?> py-5 <?php echo $otherClasses ?>" style='background-image:url(<?php echo $bgImage ?>);'>
 	<div class="container">
 		<h2><?php echo $sectionH2 ?></h2>
-		<p class="lead"><?php echo $sectionP ?></p>
+		<p class=""><?php echo $sectionP ?></p>
 	</div>
 </section>

@@ -7,20 +7,18 @@ include "../templates/header.php"
 <main id="main">	
 
     <!-- Hero section -->
-	<section class="home hero inset-background-left">
-		<div class="container">
-			<div class="container">
-				<h1>Breakout clone</h1>
-				<i class="fas fa-chevron-down"></i>
-			</div>
-		</div>
-	</section>	
+	<?php
+		$bgColour = "primary";
+		$bgImage = "../images/pricing-image-50-900x600.png";
+		$textColour = "light";
+		$sectionH1 = "Breakout clone";
+		$sectionP = "I made this to practice Javascript. It's pretty rusty but it was fun to make and it might be interesting to play.";
+		$otherClasses = "inset-background-cover";
+		include "../templates/hero.php"
+    ?>	
 
     <!-- Content section -->
-    <section>
-        <h2>Try the game</h2>
-        <p>I made this to practice Javascript. It's pretty rusty but it was fun to make and it 
-        might be interesting to play.</p>
+    <section class="container-fluid">
         <canvas id="myCanvas" width="480" height="320"></canvas>
 
         <script src="<?php echo $fileLevel ?>js/breakout.js"></script>

@@ -10,7 +10,7 @@ include "templates/header.php"
 	<?php
 		$bgColour = "primary";
 		$bgImage = "images/laptop-60-opacity.png";
-		$textColour = "dark";
+		$textColour = "light";
 		$sectionH1 = "Deej Potter Designs";
 		$sectionP = "Your own personal web designer. <br>Prices start at $100. <br><strong>Contact me now!</strong>";
 		$otherClasses = "inset-background-cover";

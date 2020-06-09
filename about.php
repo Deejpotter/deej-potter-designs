@@ -5,24 +5,24 @@ include "templates/header.php"
 ?>
 
 <main id="main">
-	  
-	<!-- Hero section -->
-	<section class="about-me-image hero inset-background-left">
-		<div class="container">
-			<div class="container">
-				<h1>All about me</h1>
-				<p>If you want to know more about my life you've come to the right place</p>
-				<i class="fas fa-chevron-down"></i>
-			</div>
-		</div>
-	</section>	
 
-	<section>
-		<div class="container">
-			<div class="container">
+	<!-- Hero section -->
+	<?php
+		$bgColour = "primary";
+		$bgImage = "images/pricing-image-50-900x600.png";
+		$textColour = "light";
+		$sectionH1 = "All about me";
+		$sectionP = "If you want to know more about my life you've come to the right place.";
+		$otherClasses = "inset-background-cover";
+		include "templates/hero.php"
+	?>	
+
+	<section class="container py-4">
+		<div class="row">
+			<div class="col-md">
 				<div>
 					<h2>I love technology</h2>
-					<p>I have always had a love for technology. Since I can remember I have been messing around with every 
+					<p>I have always had a love for technology. Since I can remember I have been learning about every 
 					electronic device I could get my hands on.</p>
 					<p>I grew up with the internet so I have had a lot of time 
 					to figure out how it works and I also love sharing my knowledge with other people. I’m always happy 
@@ -42,7 +42,7 @@ include "templates/header.php"
 
 					<h2>I love helping people</h2>
 					<p>If you want to know anything else about me just send me a message. I'd love to answer your questions.</p>
-					<a class="main-header-contact" href="<?php echo $fileLevel ?>contact.php">Contact me</a>
+					<a class="btn btn-primary shadow" href="<?php echo $fileLevel ?>contact.php">Contact me</a>
 				</div>
 			</div>
 		</div>

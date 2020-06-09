@@ -5,6 +5,19 @@ include "../templates/header.php"
 ?>
 
 <main id="main">
+
+    <!-- Hero section -->
+	<?php
+		$bgColour = "primary";
+		$bgImage = "../images/pricing-image-50-900x600.png";
+		$textColour = "light";
+		$sectionH1 = "My calculator";
+		$sectionP = "You can calculate numbers below.";
+		$otherClasses = "inset-background-cover";
+		include "../templates/hero.php"
+    ?>	
+    
+    <!-- Calculator section -->
     <div id="calculator">
         <div class="screen">
             <p id="old-text">0</p>

@@ -42,7 +42,7 @@
 
 				<!-- Toggler/collapsibe Button -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-					<span class="navbar-toggler-icon"></span>
+					<i class="fas fa-bars"></i>
 				</button>
 
 				<!-- Navbar links -->
@@ -58,7 +58,7 @@
 							<a class="nav-link" href="<?php echo $fileLevel ?>work.php">My work</a>
 						</li>
 						<li class="nav-item">
-							<a class="btn btn-primary btn-lg" href="<?php echo $fileLevel ?>contact.php">Contact me</a>
+							<a class="btn btn-primary btn-lg shadow" href="<?php echo $fileLevel ?>contact.php">Contact me</a>
 						</li>
 					</ul>
 				</div>
