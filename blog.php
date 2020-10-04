@@ -1,6 +1,9 @@
 <?php 
 $fileLevel = "";
-$title = "Home";
+$title = "Blog | Deej Potter Designs";
+$description = "I'm a self taught web designer and I love what I do.";
+$link = "https://deejpotterdesigns.com/blog.php";
+$image = "images/logo.png";
 include "templates/header.php" 
 ?>
 
