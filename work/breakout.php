@@ -1,6 +1,9 @@
 <?php 
 $fileLevel = "../";
 $title = "Breakout clone | Deej Potter Designs";
+$description = "I made this to practice Javascript. It's pretty rusty but it was fun to make and it might be interesting to play.";
+$link = "https://deejpotterdesigns.com/work/breakout.php";
+$image = "https://deejpotterdesigns.com/images/logo.png";
 include "../templates/header.php" 
 ?>
 

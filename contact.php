@@ -70,7 +70,7 @@ function IsInjected($str)
 
 $fileLevel = "";
 $title = "Contact me | Deej Potter Designs";
-$description = "I'm a self taught web designer and I love what I do.";
+$description = "If you know what you want then it's time to contact me. You can find a contact form here to contact me for a quote or just to give me some feedback.";
 $link = "https://deejpotterdesigns.com/contact.php";
 $image = "https://deejpotterdesigns.com/images/logo.png";
 include "templates/header.php"

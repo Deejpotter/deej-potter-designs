@@ -1,6 +1,9 @@
 <?php 
 $fileLevel = "../";
 $title = "Terms and conditions";
+$description = "On this page are the terms and conditions of using the Deej Potter Designs website. Please read them carefully if you're interested.";
+$link = "https://deejpotterdesigns.com/about/terms.php";
+$image = "https://deejpotterdesigns.com/images/logo.png";
 include "../templates/header.php" 
 ?>
 
@@ -25,9 +28,9 @@ include "../templates/header.php"
             <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Deej Potter Designs.</li>
             <li><strong>Country</strong> refers to: Victoria, Australia</li>
                             <li><strong>Service</strong> refers to the Website.</li>
-                <li><strong>Terms and Conditions</strong> (also referred as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement as been created with the help of <a href="https://www.termsfeed.com/terms-conditions-generator/">Terms and Conditions Generator</a>.</li>
+                <li><strong>Terms and Conditions</strong> (also referred as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service.</li>
             <li><strong>Third-party Social Media Service</strong> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</li>
-        <li><strong>Website</strong> refers to Deej Potter Designs, accessible from www.deejpotterdesigns.com</li>    <li><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</li>
+        <li><strong>Website</strong> refers to Deej Potter Designs, accessible from deejpotterdesigns.com</li>    <li><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</li>
         </ul>
 
         <h2>Acknowledgement</h2>

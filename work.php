@@ -1,7 +1,7 @@
 <?php 
 $fileLevel = "";
 $title = "My work | Deej Potter Designs";
-$description = "I'm a self taught web designer and I love what I do.";
+$description = "On this page is a list of projects I have made including a description of what I did during the project and my reasons for the decisions I made where it's applicable.";
 $link = "https://deejpotterdesigns.com/work.php";
 $image = "https://deejpotterdesigns.com/images/logo.png";
 include "./templates/header.php" 
