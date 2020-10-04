@@ -72,7 +72,7 @@ $fileLevel = "";
 $title = "Contact me | Deej Potter Designs";
 $description = "I'm a self taught web designer and I love what I do.";
 $link = "https://deejpotterdesigns.com/contact.php";
-$image = "images/logo.png";
+$image = "https://deejpotterdesigns.com/images/logo.png";
 include "templates/header.php"
 ?>
 
