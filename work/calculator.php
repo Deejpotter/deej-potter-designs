@@ -50,4 +50,4 @@ include "../templates/header.php"
     <script src="<?php echo $fileLevel ?>js/calculator.js"></script>
 </main>
 
-<?php include "../templates/footer.php" ?>
+<?php include $fileLevel."templates/footer.php" ?>

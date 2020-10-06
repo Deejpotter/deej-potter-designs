@@ -30,4 +30,4 @@ include "../templates/header.php"
 	
 </main>
 
-<?php include "../templates/footer.php" ?>
+<?php include $fileLevel."templates/footer.php" ?>

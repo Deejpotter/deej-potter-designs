@@ -1,3 +1,5 @@
+config.php
+
 # Folders to ignore
 BootstrapNode/js/coverage/
 BootstrapNode/node_modules
