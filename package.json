@@ -1,0 +1,24 @@
+{
+  "name": "deejpotterdesigns",
+  "version": "1.0.0",
+  "description": "This is for the Deej Potter Designs website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deejpotter/deejpotterdesigns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deejpotter/deejpotterdesigns/issues"
+  },
+  "homepage": "https://github.com/Deejpotter/deejpotterdesigns#readme",
+  "devDependencies": {
+    "webpack": "^5.11.1",
+    "webpack-dev-server": "^3.11.1"
+  }
+}
