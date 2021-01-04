@@ -1,6 +1,9 @@
 <?php 
 $fileLevel = "../";
 $title = "Privacy policy | Deej Potter Designs";
+$description = "This is the privacy policy for Deej Potter Designs. It describes what personal information I collect and what I do with it.";
+$link = "https://deejpotterdesigns.com/about/privacy-policy.php";
+$image = "https://deejpotterdesigns.com/images/logo.png";
 include "../templates/header.php" 
 ?>
 
@@ -165,4 +168,4 @@ include "../templates/header.php"
     </div>
 </div>
 
-<?php include "../templates/footer.php" ?>
+<?php include $fileLevel."templates/footer.php" ?>

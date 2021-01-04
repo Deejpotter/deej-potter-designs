@@ -73,7 +73,7 @@
 						<a class="nav-link" href="<?php echo $fileLevel ?>work.php">My work</a>
 					</li>
 					<li class="nav-item">
-						<a class="btn btn-primary btn-lg shadow" href="<?php echo $fileLevel ?>contact.php">Contact me</a>
+						<a class="btn btn-primary shadow" href="<?php echo $fileLevel ?>contact.php">Contact me</a>
 					</li>
 				</ul>
 			</div>

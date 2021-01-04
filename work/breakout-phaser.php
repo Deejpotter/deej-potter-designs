@@ -1,6 +1,9 @@
 <?php 
 $fileLevel = "../";
 $title = "Phaser breakout clone | Deej Potter Designs";
+$description = "I made this to practice Phaser. It's pretty rusty but it was fun to make and it might be interesting to play.";
+$link = "https://deejpotterdesigns.com/work/breakout-phaser.php";
+$image = "https://deejpotterdesigns.com/images/logo.png";
 include "../templates/header.php" 
 ?>
 
@@ -11,7 +14,7 @@ include "../templates/header.php"
 		$bgColour = "primary";
 		$bgImage = "../images/pricing-image-50-900x600.png";
 		$textColour = "light";
-		$sectionH1 = "Breakout clone";
+		$sectionH1 = "Phaser Breakout clone";
 		$sectionP = "I made this to practice Phaser. It's pretty rusty but it was fun to make and it might be interesting to play.";
 		$otherClasses = "inset-background-cover";
 		include "../templates/hero.php"
@@ -27,4 +30,4 @@ include "../templates/header.php"
 	
 </main>
 
-<?php include "../templates/footer.php" ?>
+<?php include $fileLevel."templates/footer.php" ?>

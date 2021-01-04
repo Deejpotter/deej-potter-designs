@@ -1,7 +1,7 @@
 <?php 
 $fileLevel = "";
 $title = "Thank you | Deej Potter Designs";
-$description = "I'm a self taught web designer and I love what I do.";
+$description = "This is just a thank you page. There's nothing interesting here but you can check it out if you want.";
 $link = "https://deejpotterdesigns.com/thank-you.php";
 $image = "https://deejpotterdesigns.com/images/logo.png";
 include "templates/header.php" 

@@ -1,6 +1,9 @@
 <?php 
 $fileLevel = "../";
-$title = "Online calculator";
+$title = "Online calculator | Deej Potter Designs";
+$description = "I made this calculator to practice Javascript. It's pretty basic, it can do all the basic calculator things.";
+$link = "https://deejpotterdesigns.com/work/calculator.php";
+$image = "https://deejpotterdesigns.com/images/logo.png";
 include "../templates/header.php" 
 ?>
 
@@ -47,4 +50,4 @@ include "../templates/header.php"
     <script src="<?php echo $fileLevel ?>js/calculator.js"></script>
 </main>
 
-<?php include "../templates/footer.php" ?>
+<?php include $fileLevel."templates/footer.php" ?>
