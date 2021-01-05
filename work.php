@@ -51,9 +51,9 @@ include "./templates/header.php"
 	$bgColour = "light";
 	$textColour = "dark";
 	$bgImage = "";
-	$sectionH2 = "Breakout clone";
-	$sectionP = "I made this small game to practice Javascript. It's pretty rusty but it was fun to make and it might be interesting to play.";
-	$sectionButtonLink = "work/breakout.php";
+	$sectionH2 = "New phaser game";
+	$sectionP = "This is a new phaser game.";
+	$sectionButtonLink = "work/new-phaser.php";
 	$otherClasses = "";
 	include "templates/index-section.php"
 	?>
@@ -66,6 +66,18 @@ include "./templates/header.php"
 	$sectionH2 = "Breakout clone";
 	$sectionP = "I made this small game to practice Phaser. It's mostly the same as the other breakout game but there are a few extras added in.";
 	$sectionButtonLink = "work/breakout-phaser.php";
+	$otherClasses = "";
+	include "templates/index-section.php"
+	?>
+
+	<!-- Index section -->
+	<?php
+	$bgColour = "light";
+	$textColour = "dark";
+	$bgImage = "";
+	$sectionH2 = "Breakout clone";
+	$sectionP = "I made this small game to practice Javascript. It's pretty rusty but it was fun to make and it might be interesting to play.";
+	$sectionButtonLink = "work/breakout.php";
 	$otherClasses = "";
 	include "templates/index-section.php"
 	?>
