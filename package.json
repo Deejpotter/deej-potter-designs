@@ -4,6 +4,7 @@
   "description": "This is for the Deej Potter Designs website.",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
