@@ -22,7 +22,7 @@ include "../templates/header.php"
         <div id="game-area" class=""></div>
 
         <script src="<?php echo $fileLevel ?>js/phaser.js"></script>
-        <script src="<?php echo $fileLevel ?>js/new-phaser.js"></script>
+        <script src="<?php echo $fileLevel ?>js/new-phaser/new-phaser.js"></script>
     </section>
 	
 </main>
