@@ -72,6 +72,15 @@
   background-position: center;
   box-shadow: var(--box-shadow-inset);
  }
+ @media (max-width: 600px) {
+   .display-1 {
+    font-size: 4rem;
+   }
+   .inset-background-cover {
+     background-attachment: scroll;
+     background-size: cover;
+   }
+ }
 
 .inset-background-right {
   background-attachment: fixed;
@@ -80,7 +89,7 @@
   background-position: right;
   box-shadow: var(--box-shadow-inset);
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .inset-background-right {
     background-attachment: scroll;
     background-size: cover;
@@ -94,7 +103,7 @@
   background-position: left;
   box-shadow: var(--box-shadow-inset);
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .inset-background-left {
     background-attachment: scroll;
     background-size: cover;
@@ -130,6 +139,12 @@
 
 .index-section i {
   font-size: 5rem;
+}
+
+@media (max-width: 600px) {
+  .index-section {
+    font-size: 2rem;
+  }
 }
 
 .index-section i:hover {
