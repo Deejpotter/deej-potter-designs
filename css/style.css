@@ -128,6 +128,10 @@
     box-shadow: var(--box-shadow-top);
   }
 
+  #main-footer .col-md {
+    margin: 2rem 0;
+  }
+
   /* Make the facebook icon bigger */
   #main-footer i {
     font-size: 5rem;

@@ -38,8 +38,7 @@ function getHostingPrice()
  
     //set hostingPrice equal to value user chose
     hostingPrice = hosting_prices[selectedHosting.value];
- 
-    //finally we return cakeFillingPrice
+
     return hostingPrice;
 }
 
@@ -47,7 +46,7 @@ function getHostingPrice()
 function getDatabasePrice()
 {
     var databasePrice=0;
-    //Get a reference to the form id="cakeform"
+    //Get a reference to the form id="pricing-form"
     var pricingForm = document.forms["pricing-form"];
     //Get a reference to the checkbox id="database"
     var database = pricingForm.elements["database"];
@@ -57,31 +56,14 @@ function getDatabasePrice()
     {
         databasePrice= database.value;
     }
-    //finally we return the candlePrice
-    return databasePrice;
-}
 
-function getSpreadsheetPrice()
-{
-    var spreadsheetPrice=0;
-    //Get a reference to the form id="cakeform"
-    var pricingForm = document.forms["pricing-form"];
-    //Get a reference to the checkbox id="spreadsheet"
-    var spreadsheet = pricingForm.elements["spreadsheet"];
- 
-    //If they checked the box set spreadsheetPrice to 5
-    if(spreadsheet.checked==true)
-    {
-        spreadsheetPrice= spreadsheet.value;
-    }
-    //finally we return the candlePrice
-    return spreadsheetPrice;
+    return databasePrice;
 }
 
 function getCopywritingPrice()
 {
     var copywritingPrice=0;
-    //Get a reference to the form id="cakeform"
+    //Get a reference to the form id="pricing-form"
     var pricingForm = document.forms["pricing-form"];
     //Get a reference to the checkbox id="copywriting"
     var copywriting = pricingForm.elements["copywriting"];
@@ -91,7 +73,7 @@ function getCopywritingPrice()
     {
         copywritingPrice= copywriting.value;
     }
-    //finally we return the candlePrice
+    
     return copywritingPrice;
 }
 
@@ -99,9 +81,8 @@ function getTotal() {
     var totalPages = parseInt(getPages());
     var totalCopywriting = parseInt(getCopywritingPrice());
     var totalDatabase = parseInt(getDatabasePrice());
-    var totalSpreadsheet = parseInt(getSpreadsheetPrice());
 
-    var totalPrice = (totalPages * (pricePerPage + totalCopywriting) + 50) + totalDatabase + totalSpreadsheet;
+    var totalPrice = (totalPages * (pricePerPage + totalCopywriting) + 50) + totalDatabase;
     document.getElementById('total-cost').innerHTML = "Total cost = $"+totalPrice;
 }
 

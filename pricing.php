@@ -70,11 +70,6 @@ include "./templates/header.php"
 						</div>
 
 						<div class="form-group">
-							<label for='spreadsheet'>Spreadsheet content editing (edit your content through Google Sheets) - $200</label>
-							<input type="checkbox" name="spreadsheet" id="spreadsheet" value="200" onchange="getTotal()"/>
-						</div>
-
-						<div class="form-group">
 							<label for='copywriting'>Copywriting (I'll write content for your website) - $50 per page</label>
 							<input type="checkbox" name="copywriting" id="copywriting" value="50" onchange="getTotal()"/>
 						</div>
@@ -102,7 +97,7 @@ include "./templates/header.php"
 	// for details
 	var frmvalidator  = new Validator("pricing-form");
 	frmvalidator.addValidation("pages","req"); 
-	frmvalidator.addValidation("hosting","req"); ; 
+	frmvalidator.addValidation("hosting","req");
 </script>	
 
 <?php include "./templates/footer.php" ?>
