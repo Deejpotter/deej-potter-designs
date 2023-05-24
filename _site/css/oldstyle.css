@@ -109,7 +109,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("../images/white-waves.png");
+    background-image: url("imageses.png");
     background-attachment: fixed;
   }
 
@@ -440,7 +440,7 @@
 		  #Hero
 		  ---*/
   .home {
-    background-image: url(../images/laptop-60-opacity.png);
+    background-image: url(laptop-60-opacity.png);
   }
 
   .hero {
@@ -494,7 +494,7 @@
   
   .technical-section {
 	color: var(--light);
-	background-image: url(../images/pencils-60-opacity.png);
+	background-image: url(pencils-60-opacity.png);
 	background-color: var(--dark-accent);
   }
   
@@ -537,7 +537,7 @@
 		  ---*/
 
   .about-me-image {
-    background-image: url(../images/about-me-image-50-450x600.png);
+    background-image: url(about-me-image-50-450x600.png);
   }
   
   
@@ -552,7 +552,7 @@
 		  
   .sidebar-hero {
     color: var(--light);
-	background-image: url(../images/laptop-60-opacity.png);
+	background-image: url(laptop-60-opacity.png);
 	background-color: var(--main);
 	text-align: center;
   }
@@ -744,7 +744,7 @@
       ---*/
 
   .contact-image {
-    background-image: url(../images/contact-image-50-800x600.png);
+    background-image: url(contact-image-50-800x600.png);
   }
   
   #contact-page-form {
@@ -787,7 +787,7 @@
   ---*/
 
   .pricing-image {
-    background-image: url(../images/pricing-image-50-900x600.png);
+    background-image: url(pricing-image-50-900x600.png);
   }
 
   #pricing-form {
