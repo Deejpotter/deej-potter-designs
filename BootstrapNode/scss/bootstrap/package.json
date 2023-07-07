@@ -148,7 +148,7 @@
     "shelljs": "^0.8.4",
     "shx": "^0.3.2",
     "sinon": "^7.5.0",
-    "stylelint": "^13.3.3",
+    "stylelint": "^15.10.1",
     "stylelint-config-twbs-bootstrap": "^2.0.2",
     "terser": "^4.6.13",
     "vnu-jar": "20.3.16"
