@@ -20,6 +20,6 @@
   "homepage": "https://github.com/Deejpotter/deejpotterdesigns#readme",
   "devDependencies": {
     "webpack": "^5.76.0",
-    "webpack-dev-server": "^3.11.1"
+    "webpack-dev-server": "^5.0.4"
   }
 }
